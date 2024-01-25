@@ -1,0 +1,20 @@
+{
+  "name": "test_infinity_o",
+  "version": "1.0.0",
+  "description": "Test for infinit-o.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "prettier": "prettier --write ./*.js"
+  },
+  "author": "Fredrick Garingo",
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "prettier": "^3.2.4"
+  }
+}
